@@ -1,11 +1,19 @@
 .hero-header {
     background-color: #727c42;
     height: 100px;
-    border: none;
-    padding: 0%;
 }
 
 .personal-info {
     background-color: #fde5c1;
+    height: 100px;
+}
+
+.services {
+    background-color: #fde5c1;
+    height: 100px;
+}
+
+.contact {
+    background-color: #727c42;
     height: 100px;
 }
