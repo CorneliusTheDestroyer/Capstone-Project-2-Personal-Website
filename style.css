@@ -27,6 +27,12 @@ body {
     padding: 4rem 1rem;
 }
 
+.profile {
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 50px;
+}
+
 .hero h1 {
     font-size: 3rem;
     font-weight: bold;
