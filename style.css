@@ -66,24 +66,25 @@ body {
     margin: 0.5rem auto;
 }
 
-/* Skills Section */
-.skills {
-    background: #fafafa;
+/* Services Section */
+.services {
+    background: white;
+    text-align: center;
     padding: 3rem 1rem;
-    display: flex;
-    justify-content: center;
 }
 
-.skills .container {
+.services h2 {
+    color: #ff9800;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* New grid layout for services */
+.services-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
-}
-
-.skills h2 {
-    color: #ff9800;
-    font-size: 1.5rem;
 }
 
 .skill-card {
@@ -97,7 +98,7 @@ body {
 
 /* Contact Section */
 .contact {
-    background: #fafafa;
+    background: white;
     text-align: center;
     padding: 3rem 1rem;
 }
