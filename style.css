@@ -1,19 +1,148 @@
-.hero-header {
-    background-color: #727c42;
-    height: 400px;
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.personal-info {
-    background-color: #fde5c1;
-    height: 400px;
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #333;
+    background: #f7f7f7;
+    line-height: 1.6;
 }
 
-.services {
-    background-color: #fde5c1;
-    height: 400px;
+/* Containers */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #0d0d0d, #222);
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero h1 span {
+    color: #ff9800;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
+.hero h3 {
+    font-size: 1.2rem;
+    margin-top: 0.25rem;
+    font-weight: 300;
+}
+
+/* About Section */
+.about {
+    background: white;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.about h2 {
+    color: #ff9800;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 0.5rem auto;
+}
+
+/* Skills Section */
+.skills {
+    background: #fafafa;
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.skills .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.skills h2 {
+    color: #ff9800;
+    font-size: 1.5rem;
+}
+
+.skill-card {
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    font-weight: bold;
+    color: #444;
+}
+
+/* Contact Section */
 .contact {
-    background-color: #727c42;
-    height: 400px;
+    background: #fafafa;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.contact h2 {
+    color: #ff9800;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contact .role {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    .skills .container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
